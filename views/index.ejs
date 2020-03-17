@@ -1,0 +1,28 @@
+<%- include('header') %>
+
+  <div class="container-fluid mt-3">
+    <h1>Shotguns publics</h1>
+  </div>
+
+  <table class="table m-4" style="width: calc(100% - 3rem)">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Titre</th>
+        <th scope="col">Créateur</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% if (publics.length){ %>
+      <tr>
+        <td colspan="3">TODO</td>
+      </tr>
+      <% } else { %>
+        <tr>
+          <td colspan="3">Il n'y a aucun shotgun public pour le moment</td>
+        </tr>
+      <% } %>
+    </tbody>
+  </table>
+
+<%- include('footer') %>
