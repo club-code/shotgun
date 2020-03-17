@@ -1,0 +1,24 @@
+{
+  "name": "shotgun",
+  "version": "0.0.1",
+  "description": "Application universelle pour organiser des shotguns (réservation du type \"premier arrivé, premier servi\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/club-code/shotgun.git"
+  },
+  "author": "Club Code",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/club-code/shotgun/issues"
+  },
+  "homepage": "https://github.com/club-code/shotgun#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  }
+}
